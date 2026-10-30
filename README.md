@@ -2,7 +2,7 @@
 This is a script that uploads new key/certs to the gateway and updates the key/cert objects to use the newly updated key/cert crypto files.
 
 ### What is it doing: rotate_dp_crypto.sh
-1. Takes new key and cert crypto files either in the same directory the script is being run from, or the path of the new key/cert, appends the current date and time to the name of the key/cert, and uploading them to the cert:/// of the chosen application domain file management system. This does not impact the current service yet.
+1. Takes new key and cert crypto files either in the same directory the script is being run from, or the path of the new key/cert, appends the current date and time to the name of the key/cert, and uploads them to the cert:/// directory of the chosen application domain file management system. -- This does not impact the current service yet.
 2. Then updates the key and cert objects to use the new key and cert files. -- impacts the service since new key and certs are set now.
 3. The script generates a .last_rotation file to keep track of what was changed, therefore if a rollback is required, the --rollback attribute can be used.
 
