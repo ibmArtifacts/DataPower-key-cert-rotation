@@ -49,6 +49,19 @@ Type 'yes' to continue [no]: yes
 
 <img width="1113" height="762" alt="image" src="https://github.com/user-attachments/assets/37b9a4f4-7731-4541-b54d-3c9f4d27dd02" />
 
+NOTE: You may also add env vars to skip the prompts:
+DP_HOST
+DP_PORT 
+DP_DOMAIN 
+DP_USER 
+DP_PASS
+DP_KEY_OBJ
+DP_CERT_OBJ
+DP_NEW_KEY
+DP_NEW_CERT
+
+After setting the env vars, the executed script will not prompt you to enter anything, and will complete the task as shown below:
+<img width="1252" height="658" alt="image" src="https://github.com/user-attachments/assets/5483e0f5-e53e-41e2-883d-90c309a05e86" />
 
 
 ### Usage: rotate_dp_crypto.sh --rollback
