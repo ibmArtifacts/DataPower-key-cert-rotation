@@ -1,7 +1,7 @@
 # DataPower-key-cert-rotation
 This is a script that uploads new key/certs to the gateway and updates the key/cert objects to use the newly updated key/cert crypto files.
 
-NOTE: This does not support OCP yet.
+NOTE: This does not support containerized DataPower yet.
 
 ### What is it doing: rotate_dp_crypto.sh
 1. Takes new key and cert crypto files either in the same directory the script is being run from, or the path of the new key/cert, appends the current date and time to the name of the key/cert, and uploads them to the cert:/// directory of the chosen application domain file management system. -- This does not impact the current service yet.
