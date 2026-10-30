@@ -1,5 +1,5 @@
 # DataPower-key-cert-rotation
-This is a script that uploads new key/certs to the gateway and updates the key/cert objects to use those new updated key/cert crypto files.
+This is a script uploads new key/certs to the gateway and updates the key/cert objects to use the newly updated key/cert crypto files.
 
 ### Usage: rotate_dp_crypto.sh
 1. Place the new key and cert crypto files in the directory you will running the rotate_dp_crypto.sh script in.
@@ -11,7 +11,6 @@ This is a script that uploads new key/certs to the gateway and updates the key/c
    - username
    - password
    - choose which key and cert objects that will be updated to use the new key/cert crypto files -- script will get a list of the objects.
-
 
 
 ```
